@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(226, 153, 193);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    height: 300px;
+    width: 400px;
+    border: 2px solid transparent;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 5px 15px 15px rgb(54, 53, 54);
+    background-color: transparent;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZJITPfC5Lc8E0NAHcZI1zBHfOoycHjFFQng&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+.wrapper i{
+    font-size: 90px;
+    color:rgb(129, 20, 20);
+    margin-top: 10%;
+    }
+
+.wrapper h2{
+    font-size: 40px;
+    color: rgb(231, 231, 142);
+}
+.wrapper h2 span{
+    color: rgb(82, 16, 16);
+}
+
+.btns{
+    padding: 1.3rem;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+} 
+ button{
+    position: absolute;
+    width: 100px;
+    height: inherit;
+    font-size: 1.4rem;
+    color: #ffffff;
+    font-weight: 700;
+    border-radius: 30px;
+    border: 2px solid white;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0 0 ,0 , 3);
+    outline: none;
+   
+    
+    
+    
+}
+.btns .yes-btn{
+    background-color: rgb(222, 106, 125);
+    margin-right: 130px;
+} 
+.btns .no-btn{
+    background-color: rgb(115, 50, 61);
+    margin-left: 130px;
+} 
+
